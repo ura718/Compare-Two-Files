@@ -3,8 +3,8 @@
 The idea behind this mini code project was to compare two files for discrepencies. 
 
 Example:
- File1 - contains names of servers from last week.
- File2 - contains names of servers from this week.
+..File1 - contains names of servers from last week.
+..File2 - contains names of servers from this week.
 
 
 Tasks:
