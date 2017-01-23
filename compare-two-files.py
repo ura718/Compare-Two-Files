@@ -7,7 +7,15 @@
 #############################################################################################################################################
 
 '''
-This program compares two files from File1 from last week and File2 from this week. Both files contain server names. The idea is to identify whic servers exists last week but dont exist this week. And which new servers were added this week. So what we do is we try to compare the two files. For both files we read the output and assign it to an array. Then we create a dictionary (hash) and assign '1' to all values from each key of every file (e.g: server: 1). Then we begin our comparison and see if a key if found in file2 that exists in file1. If its not found then we decrement the value by 1 setting it to 0. If the servers match then we leave the value at 1. Then we compare file2 with file1 and see if any new servers were added to file2 from this week. If new server is found then we add value by 1. This means the value goes to 2. In conclusion if the final value printed is 0, then last weeks server is missing from this weeks file. If value is 1 then no change took place and all servers are in tact. If value 2 is found then a new server was added this week that did not exist last week. And here is the final code.
+This program compares two files from File1 from last week and File2 from this week. Both files contain server names. 
+The idea is to identify which servers exists last week but dont exist this week. And which new servers were added this week. 
+So what we do is we try to compare the two files. For both files we read the output and assign it to an array. Then we create 
+a dictionary (hash) and assign '1' to all values from each key of every file (e.g: server: 1). Then we begin our comparison 
+and see if a key if found in file2 that exists in file1. If its not found then we decrement the value by 1 setting it to 0. If 
+the servers match then we leave the value at 1. Then we compare file2 with file1 and see if any new servers were added to file2 
+from this week. If new server is found then we add value by 1. This means the value goes to 2. In conclusion if the final value 
+printed is 0, then last weeks server is missing from this weeks file. If value is 1 then no change took place and all servers are 
+in tact. If value 2 is found then a new server was added this week that did not exist last week. And here is the final code.
 '''
 
 #############################################################################################################################################
