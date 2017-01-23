@@ -1,13 +1,13 @@
 # Compare-Two-Files
 
-The idea behind this mini code project was to compare two files for discrepencies. 
+The idea behind this mini code project was to compare two files for discrepencies.  
 
-Example:
+Example:  
 ..File1 - contains names of servers from last week.
 ..File2 - contains names of servers from this week.
 
 
-Tasks:
+Tasks:  
 You want to identify which servers from last week (File1) are still present in this week (File2).
 You want to identify which servers from last week (File1) no longer exist in this week (File2).
 And,
