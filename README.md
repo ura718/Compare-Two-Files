@@ -1,7 +1,7 @@
 # Compare-Two-Files
-
+  
 The idea behind this mini code project was to compare two files for discrepencies.  
-
+  
 Example:  
     File1 - contains names of servers from last week.  
     File2 - contains names of servers from this week.  
@@ -15,7 +15,7 @@ You want to identify which servers from this week (File2) are new to the list th
 
 
 Solution:  
-
+  
 To solve the above tasks you have to use Dictionaries (hashes).   
 1. Read in File1 from last week, create a new hash and for each element create key == servername, value == 1  
 2. Read in File2 from this week, create a new hash and for each element create key == servername, value == 1  
